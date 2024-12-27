@@ -3,10 +3,10 @@
 /* Apply Roboto font globally */
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 2rem auto;    /* Add some breathing room */
-  max-width: 900px;     /* Limit the width for better readability */
-  padding: 1rem;        /* Add padding around the content */
-  line-height: 1.75;    /* Slightly increase line height for readability */
+  margin: 1rem auto;    /* Reduced margin for less empty space */
+  max-width: 900px;     /* Keep a comfortable width for readability */
+  padding: 0.5rem;      /* Reduced padding for a tighter layout */
+  line-height: 1.75;    /* Maintain good readability */
   background-color: #fafafa; /* Light background color for a softer feel */
   color: #333;          /* Standard dark color for text */
 }
