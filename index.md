@@ -8,12 +8,13 @@ This description of the thesis is supposed to summarise the entire work, as a me
 - Additional tool : [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview)
 
 ## Introduction
+<img src="assets/css/Cartoon1.png" alt="cartoon" style="width:50%; float:left; margin:0 15px 15px 0;">
 
 Cosmic filaments are fundamental components of the [large-scale structure](https://science.nasa.gov/universe/galaxies/large-scale-structures/) of the Universe, forming the intricate network known as the [cosmic web](https://science.nasa.gov/resource/cosmic-web/). These elongated structures, which stretch over vast distances, play a pivotal role in shaping galaxy formation and evolution. By acting as conduits for matter and energy, filaments transport gas and dark matter from the intergalactic medium (IGM) into galaxies, fueling star formation and the growth of galactic halos. Despite their importance, the detailed physical and thermodynamic properties of these filaments remain elusive due to their faintness and the challenges involved in observing them directly.
 
 This thesis investigates the evolution of [cosmic filaments](https://en.wikipedia.org/wiki/Galaxy_filament) during the [Epoch of Reionization (EoR)](https://en.wikipedia.org/wiki/Reionization), a transformative period in the history of the Universe when the first stars and galaxies emerged, producing ionizing radiation that altered the state of the IGM. Using data from the [Cosmic Dawn III (CoDaIII)](https://coda-simulation.github.io/) simulation—a high-resolution, cosmological radiation-hydrodynamics simulation—the study aims to understand how the inhomogeneous reionization process impacts the physical characteristics of large scale structures and galaxy evolution. By analyzing their evolution across multiple redshifts (z = 15, 9, 7, and 5), my thesis addresses critical questions about how the growing background radiation alters filamentary structures, how their density, temperature, and ionization state evolve over time, and what these changes reveal about the dynamics of the cosmic web
 
-<img src="assets/css/Cartoon1.png" alt="Cartoon" style="width:50%; display:block; margin:auto;">
+<!-- <img src="assets/css/Cartoon1.png" alt="Cartoon" style="width:50%; display:block; margin:auto;"> -->
 
 The scope of this study includes a sub-region of the CoDaIII simulation box, chosen to balance computational constraints with the need for detailed analysis. Through this focused investigation, the research contributes to a broader understanding of the role of cosmic filaments in the hierarchical assembly of matter in the Universe, particularly during a period characterized by rapid and spatially variable reionization.
 
