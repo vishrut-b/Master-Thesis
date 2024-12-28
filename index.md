@@ -23,17 +23,16 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
 
 - The first step in the analysis involved extracting the filamentary network using [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview) (DIScrete PERsistent Structures Extractor), an open-source tool that identifies critical points and connects them to delineate filamentary structures. This approach relies on persistence analysis to distinguish meaningful features from noise within the simulation’s density field. By setting a uniform persistence threshold across all analyzed redshifts, the study ensured consistency in identifying filaments while enabling comparisons of their properties over time.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <figure style="text-align: center; width: 45%; margin: 0;">
-    <img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width: 45%;">
+<div style="display: flex; justify-content: space-between; gap: 5px;">
+  <figure style="text-align: center; width: 48%; margin: 0;">
+    <img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width: 100%;">
     <figcaption>Figure 1: Basic definition of a filament</figcaption>
   </figure>
-  <figure style="text-align: center; width: 45%; margin: 0;">
-    <img src="assets/css/persistence.png" alt="Persistence Diagram" style="width: 45%;">
+  <figure style="text-align: center; width: 48%; margin: 0;">
+    <img src="assets/css/persistence.png" alt="Persistence Diagram" style="width: 100%;">
     <figcaption>Figure 2: Differences in networks based on persistence thresholds</figcaption>
   </figure>
 </div>
-
 
 
 - Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
