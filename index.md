@@ -47,16 +47,7 @@ The scope of this study includes a sub-region of the CoDaIII simulation box, cho
 
 <!-- Text that appears before the floated images -->
 <p>
-The Cosmic Dawn III simulation serves as the foundation of this study, 
-offering a detailed and comprehensive model of the EoR. The simulation 
-captures the complex interplay between ionizing radiation and the matter 
-in the IGM, making it an ideal tool for exploring how cosmic filaments 
-respond to reionization. With a resolution sufficient to resolve 
-individual filamentary structures, CoDaIII employs the RAMSES-CUDATON 
-code to couple radiation transport, hydrodynamics, and dark matter 
-dynamics. This allows the simulation to account for the escape of 
-ionizing radiation from thousands of galaxies and the subsequent 
-impact on their surrounding environments.
+The Cosmic Dawn III simulation captures the complex interplay between ionizing radiation and the matter in the IGM, making it an ideal tool for exploring how cosmic filaments respond to reionization. With a resolution sufficient to resolve individual filamentary structures, CoDaIII employs the RAMSES-CUDATON code to couple radiation transport, hydrodynamics, and dark matter dynamics. This allows the simulation to account for the escape of ionizing radiation from thousands of galaxies and the subsequent impact on their surrounding environments.
 </p>
 
   
@@ -66,7 +57,7 @@ using <a href="https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?categor
 critical points and connects them to delineate filamentary structures. This 
 approach relies on persistence analysis to distinguish meaningful features 
 from noise within the simulation’s density field. By setting a uniform 
-persistence threshold across all analyzed redshifts, the study ensured 
+persistence threshold across all analyzed redshifts, my study ensured 
 consistency in identifying filaments while enabling comparisons of their 
 properties over time.
 
