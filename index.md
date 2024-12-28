@@ -19,20 +19,6 @@ The scope of this study includes a sub-region of the CoDaIII simulation box, cho
 
 ## Methodology
 
-<!-- Text that appears before the floated images -->
-<p>
-The Cosmic Dawn III simulation serves as the foundation of this study, 
-offering a detailed and comprehensive model of the EoR. The simulation 
-captures the complex interplay between ionizing radiation and the matter 
-in the IGM, making it an ideal tool for exploring how cosmic filaments 
-respond to reionization. With a resolution sufficient to resolve 
-individual filamentary structures, CoDaIII employs the RAMSES-CUDATON 
-code to couple radiation transport, hydrodynamics, and dark matter 
-dynamics. This allows the simulation to account for the escape of 
-ionizing radiation from thousands of galaxies and the subsequent 
-impact on their surrounding environments.
-</p>
-
 <!-- Floated container with two images side by side -->
 <div style="
   float: left; 
@@ -58,9 +44,23 @@ impact on their surrounding environments.
   </figure>
 </div>
 
+<!-- Text that appears before the floated images -->
+<p>
+The Cosmic Dawn III simulation serves as the foundation of this study, 
+offering a detailed and comprehensive model of the EoR. The simulation 
+captures the complex interplay between ionizing radiation and the matter 
+in the IGM, making it an ideal tool for exploring how cosmic filaments 
+respond to reionization. With a resolution sufficient to resolve 
+individual filamentary structures, CoDaIII employs the RAMSES-CUDATON 
+code to couple radiation transport, hydrodynamics, and dark matter 
+dynamics. This allows the simulation to account for the escape of 
+ionizing radiation from thousands of galaxies and the subsequent 
+impact on their surrounding environments.
+</p>
 <!-- Text that wraps around the floated images -->
 <p>
-The first step in the analysis involved extracting the filamentary network 
+  
+- The first step in the analysis involved extracting the filamentary network 
 using <a href="https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview">DisPerSE</a> 
 (DIScrete PERsistent Structures Extractor), an open-source tool that identifies 
 critical points and connects them to delineate filamentary structures. This 
@@ -70,9 +70,6 @@ persistence threshold across all analyzed redshifts, the study ensured
 consistency in identifying filaments while enabling comparisons of their 
 properties over time.
 </p>
-
-<!-- If you want subsequent text to start below the images, add a clearing element -->
-<div style="clear: both;"></div>
 
 <div style="display: flex; justify-content: space-between; gap: 5px;">
   <figure style="text-align: center; width: 48%; margin: 0;">
