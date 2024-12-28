@@ -35,3 +35,12 @@ This thesis underscores the importance of cosmic filaments as dynamic and evolvi
 While the results are based on a limited sub-region of the CoDaIII simulation, they serve as a foundation for future studies aimed at generalizing these findings to larger volumes and exploring additional properties, such as gas velocity. Moreover, the methodologies developed in this research have broader applications in the study of large-scale structure, demonstrating the transferability of these data science techniques to other cosmological simulations and observational datasets.
 
 In summary, this research contributes to our understanding of the cosmic web during the EoR and provides a framework for further exploration of the complex interactions between radiation, matter, and gravity in shaping the Universe’s largest structures.
+
+## Key References
+
+1. [How to Quench a Dwarf Galaxy](https://academic.oup.com/mnras/article/494/2/2200/5780248) 
+2. [Rivers of gas – I. Unveiling the properties of high redshift filaments](https://academic.oup.com/mnras/article/502/1/351/6074265)
+3. [Cosmic Dawn (CoDa): the first radiation-hydrodynamics simulation of reionization and galaxy formation in the Local Universe](https://academic.oup.com/mnras/article/463/2/1462/2892403)
+4. [Cosmic Dawn II (CoDa II): a new radiation-hydrodynamics simulation of the self-consistent coupling of galaxy formation and reionization](https://academic.oup.com/mnras/article/496/4/4087/5836727)
+
+and many more. 
