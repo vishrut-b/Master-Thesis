@@ -10,7 +10,7 @@ This description of the thesis is supposed to summarise the entire work, as a me
 ## Introduction
 <figure style="width: 50%; float: left; margin: 0 15px 15px 0;">
   <img src="assets/css/Cartoon1.png" alt="cartoon" style="width: 100%;">
-  <figcaption style="text-align: center;">Figure 1: Description of the cartoon</figcaption>
+  <figcaption style="text-align: center;">Figure 1: A cartoon to illustrate an evolving filamentary network</figcaption>
 </figure>
 
 Cosmic filaments are fundamental components of the [large-scale structure](https://science.nasa.gov/universe/galaxies/large-scale-structures/) of the Universe, forming the intricate network known as the [cosmic web](https://science.nasa.gov/resource/cosmic-web/). These elongated structures, which stretch over vast distances, play a pivotal role in shaping galaxy formation and evolution. By acting as conduits for matter and energy, filaments transport gas and dark matter from the intergalactic medium (IGM) into galaxies, fueling star formation and the growth of galactic halos. Despite their importance, the detailed physical and thermodynamic properties of these filaments remain elusive due to their faintness and the challenges involved in observing them directly.
