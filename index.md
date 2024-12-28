@@ -13,7 +13,7 @@ Cosmic filaments are fundamental components of the [large-scale structure](https
 
 This thesis investigates the evolution of [cosmic filaments](https://en.wikipedia.org/wiki/Galaxy_filament) during the [Epoch of Reionization (EoR)](https://en.wikipedia.org/wiki/Reionization), a transformative period in the history of the Universe when the first stars and galaxies emerged, producing ionizing radiation that altered the state of the IGM. Using data from the [Cosmic Dawn III (CoDaIII)](https://coda-simulation.github.io/) simulation—a high-resolution, cosmological radiation-hydrodynamics simulation—the study aims to understand how the inhomogeneous reionization process impacts the physical characteristics of large scale structures and galaxy evolution. By analyzing their evolution across multiple redshifts (z = 15, 9, 7, and 5), my thesis addresses critical questions about how the growing background radiation alters filamentary structures, how their density, temperature, and ionization state evolve over time, and what these changes reveal about the dynamics of the cosmic web
 
-<img src="assets/css/cartoon1.png" alt="Cartoon" style="width:100%; display:block; margin:auto;">
+<img src="assets/css/Cartoon1.png" alt="Cartoon" style="width:100%; display:block; margin:auto;">
 
 The scope of this study includes a sub-region of the CoDaIII simulation box, chosen to balance computational constraints with the need for detailed analysis. Through this focused investigation, the research contributes to a broader understanding of the role of cosmic filaments in the hierarchical assembly of matter in the Universe, particularly during a period characterized by rapid and spatially variable reionization.
 
@@ -23,7 +23,7 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
 
 - The first step in the analysis involved extracting the filamentary network using [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview) (DIScrete PERsistent Structures Extractor), an open-source tool that identifies critical points and connects them to delineate filamentary structures. This approach relies on persistence analysis to distinguish meaningful features from noise within the simulation’s density field. By setting a uniform persistence threshold across all analyzed redshifts, the study ensured consistency in identifying filaments while enabling comparisons of their properties over time.
 
-<img src="assets/css/cartoon2.png" alt="Elbow Method Graph" style="width:100%; display:block; margin:auto;">
+<img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width:100%; display:block; margin:auto;">
 
 - Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
 
