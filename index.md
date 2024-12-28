@@ -68,7 +68,7 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
 
 ## Results
 
-<img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width:80%; display:block; margin:auto;">
+<img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width:40%; float:left; margin:0 15px 15px 0;">
 
 The study revealed several important trends in the evolution of cosmic filaments. As the Universe transitioned from a neutral to an ionized state, the density distribution of the filamentary network changed significantly. Higher-density filaments became more prevalent over time, reflecting the effects of gravitational collapse and radiative feedback from ionizing sources. By contrast, lower-density regions of the network diminished, likely due to the combined effects of radiation pressure and the hierarchical growth of structure.
 
