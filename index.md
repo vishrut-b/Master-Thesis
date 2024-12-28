@@ -30,7 +30,7 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
   <figure style="margin: 0; text-align: center;">
     <img src="assets/css/before.png" 
          alt="Basic definition of a filament"
-         style="width: 400px; /* or any desired width */
+         style="width: 240px; /* or any desired width */
                 height: auto;
                 display: block;">
     <figcaption>Figure 1: Basic definition of a filament</figcaption>
@@ -39,7 +39,7 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
   <figure style="margin: 0; text-align: center;">
     <img src="assets/css/after.png" 
          alt="Differences in networks based on persistence thresholds"
-         style="width: 400px; /* or any desired width */
+         style="width: 220px; /* or any desired width */
                 height: auto;
                 display: block;">
     <figcaption>Figure 2: Differences in networks based on persistence thresholds</figcaption>
