@@ -78,7 +78,7 @@ properties over time.
 </div>
 -->
 
-<img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width:50%; float:left; margin:0 15px 15px 0;">
+<img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width:50%; float:center; margin:0 15px 15px 0;">
 
 - Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
 
