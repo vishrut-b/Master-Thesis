@@ -3,14 +3,13 @@
 /* Apply Roboto font globally */
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0.5rem auto;    /* Reduced margin for less empty space */
-  max-width: 900px;     /* Keep a comfortable width for readability */
-  padding: 0.2rem;      /* Reduced padding for a tighter layout */
-  line-height: 1.75;    /* Maintain good readability */
+  margin: 0.5rem auto;    /* Minimal margin for almost edge-to-edge layout */
+  max-width: 900px;       /* Keep a comfortable width for readability */
+  padding: 0.5rem;        /* Minimal padding for content */
+  line-height: 1.6;       /* Maintain good readability with slightly tighter line height */
   background-color: #fafafa; /* Light background color for a softer feel */
-  color: #333;          /* Standard dark color for text */
+  color: #333;            /* Standard dark color for text */
 }
-
 /* Styling for headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;     /* Use bold weights for headings */
