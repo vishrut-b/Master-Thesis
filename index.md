@@ -1,6 +1,11 @@
 # Relics of Reionization in Cosmic Dawn III: Physical Properties of the Remnants of Photo-Evaporated Filaments and Structures
 
-The thesis report is available [here](link).
+This description of the thesis is supposed to summarise the entire work, as a means to present it to potential collaborators.
+
+- The thesis report is available [here](link).<br>
+- Programming/libraries : Python (numpy, scipy, matplotlib, pandas, scikit_learn)
+- Data source : [Cosmic Dawn III (CoDaIII)](https://coda-simulation.github.io/) simulation.
+- Additional tool : [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview)
 
 ## Introduction
 
@@ -14,9 +19,8 @@ The scope of this study includes a sub-region of the CoDaIII simulation box, cho
 
 The Cosmic Dawn III simulation serves as the foundation of this study, offering a detailed and comprehensive model of the EoR. The simulation captures the complex interplay between ionizing radiation and the matter in the IGM, making it an ideal tool for exploring how cosmic filaments respond to reionization. With a resolution sufficient to resolve individual filamentary structures, CoDaIII employs the RAMSES-CUDATON code to couple radiation transport, hydrodynamics, and dark matter dynamics. This allows the simulation to account for the escape of ionizing radiation from thousands of galaxies and the subsequent impact on their surrounding environments.
 
-The first step in the analysis involved extracting the filamentary network using [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview) (DIScrete PERsistent Structures Extractor), an open-source tool that identifies critical points and connects them to delineate filamentary structures. This approach relies on persistence analysis to distinguish meaningful features from noise within the simulation’s density field. By setting a uniform persistence threshold across all analyzed redshifts, the study ensured consistency in identifying filaments while enabling comparisons of their properties over time.
-
-Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
+- The first step in the analysis involved extracting the filamentary network using [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview) (DIScrete PERsistent Structures Extractor), an open-source tool that identifies critical points and connects them to delineate filamentary structures. This approach relies on persistence analysis to distinguish meaningful features from noise within the simulation’s density field. By setting a uniform persistence threshold across all analyzed redshifts, the study ensured consistency in identifying filaments while enabling comparisons of their properties over time.
+- Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
 
 ## Results
 
