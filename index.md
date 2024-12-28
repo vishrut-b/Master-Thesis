@@ -19,36 +19,60 @@ The scope of this study includes a sub-region of the CoDaIII simulation box, cho
 
 ## Methodology
 
-The Cosmic Dawn III simulation serves as the foundation of this study, offering a detailed and comprehensive model of the EoR. The simulation captures the complex interplay between ionizing radiation and the matter in the IGM, making it an ideal tool for exploring how cosmic filaments respond to reionization. With a resolution sufficient to resolve individual filamentary structures, CoDaIII employs the RAMSES-CUDATON code to couple radiation transport, hydrodynamics, and dark matter dynamics. This allows the simulation to account for the escape of ionizing radiation from thousands of galaxies and the subsequent impact on their surrounding environments.
+<!-- Text that appears before the floated images -->
+<p>
+The Cosmic Dawn III simulation serves as the foundation of this study, 
+offering a detailed and comprehensive model of the EoR. The simulation 
+captures the complex interplay between ionizing radiation and the matter 
+in the IGM, making it an ideal tool for exploring how cosmic filaments 
+respond to reionization. With a resolution sufficient to resolve 
+individual filamentary structures, CoDaIII employs the RAMSES-CUDATON 
+code to couple radiation transport, hydrodynamics, and dark matter 
+dynamics. This allows the simulation to account for the escape of 
+ionizing radiation from thousands of galaxies and the subsequent 
+impact on their surrounding environments.
+</p>
 
+<!-- Floated container with two images side by side -->
 <div style="
+  float: left; 
   display: flex; 
   justify-content: center; 
   align-items: center; 
-  gap: 2%; /* Space is dynamic and centered, 2% of the container width */
-  width: 100%; /* Ensure full width of the screen */
+  gap: 2%; 
+  width: 45%;     /* Reduced width so text can wrap on the right side */
+  margin: 0 20px 20px 0; 
 ">
   <figure style="margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="assets/css/before.png" 
          alt="Basic definition of a filament"
-         style="height: 500px; /* Fixed height */
-                width: auto; /* Maintain aspect ratio */
-                display: block;">
+         style="height: 500px; width: auto; display: block;">
     <figcaption>Figure 1: Before reionization</figcaption>
   </figure>
 
   <figure style="margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="assets/css/after.png" 
          alt="Differences in networks based on persistence thresholds"
-         style="height: 500px; /* Same fixed height as the first image */
-                width: auto; /* Maintain aspect ratio */
-                display: block;">
+         style="height: 500px; width: auto; display: block;">
     <figcaption>Figure 2: After reionization</figcaption>
   </figure>
 </div>
 
+<!-- Text that wraps around the floated images -->
+<p>
+The first step in the analysis involved extracting the filamentary network 
+using <a href="https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview">DisPerSE</a> 
+(DIScrete PERsistent Structures Extractor), an open-source tool that identifies 
+critical points and connects them to delineate filamentary structures. This 
+approach relies on persistence analysis to distinguish meaningful features 
+from noise within the simulation’s density field. By setting a uniform 
+persistence threshold across all analyzed redshifts, the study ensured 
+consistency in identifying filaments while enabling comparisons of their 
+properties over time.
+</p>
 
-- The first step in the analysis involved extracting the filamentary network using [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview) (DIScrete PERsistent Structures Extractor), an open-source tool that identifies critical points and connects them to delineate filamentary structures. This approach relies on persistence analysis to distinguish meaningful features from noise within the simulation’s density field. By setting a uniform persistence threshold across all analyzed redshifts, the study ensured consistency in identifying filaments while enabling comparisons of their properties over time.
+<!-- If you want subsequent text to start below the images, add a clearing element -->
+<div style="clear: both;"></div>
 
 <div style="display: flex; justify-content: space-between; gap: 5px;">
   <figure style="text-align: center; width: 48%; margin: 0;">
