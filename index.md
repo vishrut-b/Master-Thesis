@@ -39,14 +39,14 @@ The scope of this study includes a sub-region of the CoDaIII simulation box, cho
     <img src="assets/css/before.png" 
          alt="Basic definition of a filament"
          style="height: 500px; width: auto; display: block;">
-    <figcaption>Figure 1: Before reionization</figcaption>
+    <figcaption style="text-align: justify; font-size: 1em; font-style: italic; font-weight: 300; color: #666; margin: 10px 0 0 0;">Figure 1: Before reionization</figcaption>
   </figure>
 
   <figure style="margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="assets/css/after.png" 
          alt="Differences in networks based on persistence thresholds"
          style="height: 500px; width: auto; display: block;">
-    <figcaption>Figure 2: After reionization</figcaption>
+    <figcaption style="text-align: justify; font-size: 1em; font-style: italic; font-weight: 300; color: #666; margin: 10px 0 0 0;">Figure 2: After reionization</figcaption>
   </figure>
 </div>
 
