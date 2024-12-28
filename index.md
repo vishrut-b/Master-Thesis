@@ -79,7 +79,14 @@ properties over time.
 
 ## Results
 
-<img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width:50%; float:left; margin:0 15px 15px 0;">
+<figure style="width: 50%; float: left; margin: 0 15px 15px 0;">
+  <img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width: 100%;">
+  <figcaption style="text-align: center;">Figure : Median radial profiles for Gas density (first row), Dark matter density (second row), neutral fraction (third row),
+ionisation fraction (fourth row), temperature (fifth row), a magnified version of the same temperature profiles
+(sixth row), and metallicity of filaments in the simulations at redshifts 15, 9, 7 and 5. The radius represents the
+cylindrical radius, perpendicular to the filament in comoving kiloparsecs. The multiple lines in each panel represent profiles from filaments with
+different densities, with lower density parts indicated by more transparent lines. </figcaption>
+</figure>
 
 The study revealed several important trends in the evolution of cosmic filaments. As the Universe transitioned from a neutral to an ionized state, the density distribution of the filamentary network changed significantly. Higher-density filaments became more prevalent over time, reflecting the effects of gravitational collapse and radiative feedback from ionizing sources. By contrast, lower-density regions of the network diminished, likely due to the combined effects of radiation pressure and the hierarchical growth of structure.
 
