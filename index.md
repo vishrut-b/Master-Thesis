@@ -23,11 +23,18 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
 
 - The first step in the analysis involved extracting the filamentary network using [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview) (DIScrete PERsistent Structures Extractor), an open-source tool that identifies critical points and connects them to delineate filamentary structures. This approach relies on persistence analysis to distinguish meaningful features from noise within the simulation’s density field. By setting a uniform persistence threshold across all analyzed redshifts, the study ensured consistency in identifying filaments while enabling comparisons of their properties over time.
 
-<img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width:50%; display:block; margin:auto;">
+<div class="image-container">
+  <img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width:50%;">
+  <img src="assets/css/persistence.png" alt="Elbow Method Graph" style="width:50%;">
+</div>
 
 - Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
 
+<img src="assets/css/sanitycheck.png" alt="Elbow Method Graph" style="width:50%; display:block; margin:auto;">
+
 ## Results
+
+<img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width:80%; display:block; margin:auto;">
 
 The study revealed several important trends in the evolution of cosmic filaments. As the Universe transitioned from a neutral to an ionized state, the density distribution of the filamentary network changed significantly. Higher-density filaments became more prevalent over time, reflecting the effects of gravitational collapse and radiative feedback from ionizing sources. By contrast, lower-density regions of the network diminished, likely due to the combined effects of radiation pressure and the hierarchical growth of structure.
 
