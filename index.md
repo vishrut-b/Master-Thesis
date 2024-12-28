@@ -57,8 +57,7 @@ dynamics. This allows the simulation to account for the escape of
 ionizing radiation from thousands of galaxies and the subsequent 
 impact on their surrounding environments.
 </p>
-<!-- Text that wraps around the floated images -->
-<p>
+
   
 - The first step in the analysis involved extracting the filamentary network 
 using <a href="https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview">DisPerSE</a> 
