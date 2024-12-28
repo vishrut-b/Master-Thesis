@@ -1,32 +1,32 @@
 /* Apply Roboto font globally */
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0;              /* Remove default browser margins */
-  max-width: 900px;       /* Limit width for readability */
-  padding: 2cm;           /* Add a 2cm gap around the content */
-  line-height: 1.6;       /* Maintain good readability */
+  margin: 0;               /* Remove default browser margins */
+  padding: 2cm;            /* Add 2cm gap on all sides */
+  line-height: 1.6;        /* Maintain good readability */
   background-color: #fafafa; /* Light background for a softer feel */
-  color: #333;            /* Standard dark color for text */
-  box-sizing: border-box; /* Ensure padding is included in width/height calculations */
+  color: #333;             /* Standard dark text color */
+  text-align: justify;     /* Ensure the text is justified */
+  box-sizing: border-box;  /* Include padding in width/height calculations */
 }
 
 /* Styling for headings */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;       /* Use bold weights for headings */
-  margin-top: 1rem;       /* Spacing above headings */
-  margin-bottom: 0.5rem;  /* Spacing below headings */
-  color: #222;            /* Slightly darker color for headings */
+  font-weight: 700;        /* Use bold weights for headings */
+  margin-top: 1rem;        /* Space above headings */
+  margin-bottom: 0.5rem;   /* Space below headings */
+  color: #222;             /* Slightly darker color for headings */
 }
 
 /* Subtle underlining for <h1> to distinguish main title */
 h1 {
-  border-bottom: 1px solid #ddd; /* Thin underline for main title */
+  border-bottom: 1px solid #ddd; /* Thin underline for the main title */
   padding-bottom: 0.2rem;        /* Minimal padding below the title */
 }
 
 /* Add styles for links */
 a {
-  color: #007acc;           /* Blue links for visibility */
+  color: #007acc;            /* Blue links for visibility */
   text-decoration: none;
 }
 a:hover {
@@ -37,15 +37,15 @@ a:hover {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1rem 0;          /* Add spacing above and below tables */
-  background-color: #fff;  /* White background for contrast */
+  margin: 1rem 0;           /* Add space above and below tables */
+  background-color: #fff;   /* White background for contrast */
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 th, td {
   border: 0.5px solid #ddd; /* Thin borders for table cells */
   padding: 6px 8px;         /* Reduced padding for compact cells */
   text-align: left;
-  font-size: 0.85rem;       /* Smaller font size for tables */
+  font-size: 0.85rem;       /* Slightly smaller font size for tables */
 }
 th {
   background-color: #f4f4f4; /* Light gray background for table headers */
@@ -55,7 +55,7 @@ th {
 
 /* Add styles for block quotes */
 blockquote {
-  margin: 1rem 0;          /* Spacing around blockquotes */
+  margin: 1rem 0;          /* Space around blockquotes */
   padding: 0.5rem;         /* Padding inside blockquotes */
   border-left: 3px solid #007acc; /* Highlight with a left border */
   background-color: #f9f9f9;
@@ -83,14 +83,14 @@ pre, code {
 }
 pre {
   overflow-x: auto;       /* Enable horizontal scrolling for long code */
-  margin: 1rem 0;        /* Add spacing above and below */
+  margin: 1rem 0;         /* Space around code blocks */
 }
 
 /* Add a footer style */
 footer {
   margin-top: 1.5rem;     /* Space above footer */
   text-align: center;
-  font-size: 0.8rem;      /* Smaller font size for footer */
+  font-size: 0.8rem;      /* Smaller font size for the footer */
   color: #666;
   border-top: 1px solid #ddd;
   padding-top: 0.5rem;    /* Padding inside footer */
