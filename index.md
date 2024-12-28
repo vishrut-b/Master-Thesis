@@ -23,29 +23,29 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
 
 <div style="
   display: flex; 
-  justify-content: center; /* or 'flex-start' if you want them aligned left */
+  justify-content: center; 
   align-items: center; 
-  gap: 5px;                /* minimal gap between figures */
+  gap: 2%; /* Space is dynamic and centered, 2% of the container width */
+  width: 100%; /* Ensure full width of the screen */
 ">
-  <figure style="margin: 0; text-align: center;">
+  <figure style="margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="assets/css/before.png" 
          alt="Basic definition of a filament"
-         style="width: 240px; /* or any desired width */
-                height: auto;
+         style="height: 300px; /* Fixed height */
+                width: auto; /* Maintain aspect ratio */
                 display: block;">
     <figcaption>Figure 1: Basic definition of a filament</figcaption>
   </figure>
 
-  <figure style="margin: 0; text-align: center;">
+  <figure style="margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="assets/css/after.png" 
          alt="Differences in networks based on persistence thresholds"
-         style="width: 235px; /* or any desired width */
-                height: auto;
+         style="height: 300px; /* Same fixed height as the first image */
+                width: auto; /* Maintain aspect ratio */
                 display: block;">
     <figcaption>Figure 2: Differences in networks based on persistence thresholds</figcaption>
   </figure>
 </div>
-
 
 
 - The first step in the analysis involved extracting the filamentary network using [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview) (DIScrete PERsistent Structures Extractor), an open-source tool that identifies critical points and connects them to delineate filamentary structures. This approach relies on persistence analysis to distinguish meaningful features from noise within the simulation’s density field. By setting a uniform persistence threshold across all analyzed redshifts, the study ensured consistency in identifying filaments while enabling comparisons of their properties over time.
