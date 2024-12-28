@@ -1,5 +1,3 @@
-/* assets/css/styles.css */
-
 /* Apply Roboto font globally */
 body {
   font-family: 'Roboto', sans-serif;
@@ -10,23 +8,24 @@ body {
   background-color: #fafafa; /* Light background color for a softer feel */
   color: #333;            /* Standard dark color for text */
 }
+
 /* Styling for headings */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;     /* Use bold weights for headings */
-  margin-top: 1.5rem;   /* Add spacing above headings */
-  margin-bottom: 0.75rem; /* Add spacing below headings */
-  color: #222;          /* Slightly darker color for headings */
+  font-weight: 700;       /* Use bold weights for headings */
+  margin-top: 0.75rem;    /* Reduced spacing above headings */
+  margin-bottom: 0.5rem;  /* Reduced spacing below headings */
+  color: #222;            /* Slightly darker color for headings */
 }
 
 /* Subtle underlining for <h1> to distinguish main title */
 h1 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #ddd; /* Thinner underline */
+  padding-bottom: 0.2rem;        /* Minimal padding below the title */
 }
 
 /* Add styles for links */
 a {
-  color: #007acc;       /* Blue links for visibility */
+  color: #007acc;           /* Blue links for visibility */
   text-decoration: none;
 }
 a:hover {
@@ -37,15 +36,15 @@ a:hover {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1.5rem 0;
-  background-color: #fff; /* White background for contrast */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for aesthetics */
+  margin: 0.75rem 0;       /* Smaller margin for tighter layout */
+  background-color: #fff;  /* White background for contrast */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtler shadow */
 }
 th, td {
-  border: 1px solid #ddd;
-  padding: 10px 12px;
+  border: 0.5px solid #ddd; /* Thinner borders for table cells */
+  padding: 6px 8px;         /* Reduced padding inside cells */
   text-align: left;
-  font-size: 0.9rem;    /* Slightly smaller font size for tables */
+  font-size: 0.85rem;       /* Slightly smaller font size for tables */
 }
 th {
   background-color: #f4f4f4; /* Light gray background for table headers */
@@ -55,9 +54,9 @@ th {
 
 /* Add styles for block quotes */
 blockquote {
-  margin: 1rem 0;
-  padding: 1rem;
-  border-left: 4px solid #007acc;
+  margin: 0.5rem 0;      /* Minimal spacing */
+  padding: 0.5rem;
+  border-left: 3px solid #007acc; /* Thin border for quotes */
   background-color: #f9f9f9;
   font-style: italic;
   color: #555;
@@ -65,11 +64,11 @@ blockquote {
 
 /* Add styles for lists */
 ul, ol {
-  margin: 1.5rem 0;
-  padding-left: 1.5rem; /* Indent lists */
+  margin: 1rem 0;         /* Compact spacing for lists */
+  padding-left: 1rem;     /* Slightly reduced indent */
 }
 li {
-  margin-bottom: 0.5rem; /* Add spacing between list items */
+  margin-bottom: 0.25rem; /* Reduced spacing between list items */
 }
 
 /* Add styles for code blocks */
@@ -77,21 +76,21 @@ pre, code {
   font-family: 'Courier New', Courier, monospace;
   background-color: #f4f4f4;
   color: #d6336c;
-  padding: 0.5rem;
-  border-radius: 4px;
-  font-size: 0.95rem;
+  padding: 0.25rem;       /* Minimal padding for code blocks */
+  border-radius: 3px;
+  font-size: 0.9rem;      /* Slightly smaller font size */
 }
 pre {
-  overflow-x: auto; /* Enable horizontal scrolling for long code */
-  margin: 1.5rem 0;
+  overflow-x: auto;       /* Enable horizontal scrolling for long code */
+  margin: 0.75rem 0;      /* Smaller margin for tighter spacing */
 }
 
 /* Add a footer style */
 footer {
-  margin-top: 2rem;
+  margin-top: 1rem;      /* Minimal top margin */
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;     /* Smaller font size for the footer */
   color: #666;
   border-top: 1px solid #ddd;
-  padding-top: 1rem;
+  padding-top: 0.5rem;   /* Minimal padding for the footer */
 }
