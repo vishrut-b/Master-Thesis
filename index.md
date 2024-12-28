@@ -1,8 +1,10 @@
 # Relics of Reionization in Cosmic Dawn III: Physical Properties of the Remnants of Photo-Evaporated Filaments and Structures
 
 This description of the thesis is supposed to summarise the entire work, as a means to present it to potential collaborators.
-
-- The thesis report is available <a href="https://github.com/vishrut-b/Master-Thesis/blob/a7d12ceeb8a42381ac24f85dfb9be15beaa04d8b/Bezbarua_MSc.pdf" target="_blank">here</a>.<br>
+- The thesis report is available 
+  <a href="https://raw.githubusercontent.com/vishrut-b/Master-Thesis/a7d12ceeb8a42381ac24f85dfb9be15beaa04d8b/Bezbarua_MSc.pdf" target="_blank">
+    here
+  </a>.
 - Programming/libraries : Python (numpy, scipy, matplotlib, pandas, scikit_learn)
 - Data source : [Cosmic Dawn III (CoDaIII)](https://coda-simulation.github.io/) simulation.
 - Additional tool : [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview)
