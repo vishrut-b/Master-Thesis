@@ -70,16 +70,13 @@ persistence threshold across all analyzed redshifts, the study ensured
 consistency in identifying filaments while enabling comparisons of their 
 properties over time.
 
-<div style="display: flex; justify-content: space-between; gap: 5px;">
+<div style="display: flex; justify-content: center;">
   <figure style="text-align: center; width: 48%; margin: 0;">
     <img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width: 100%;">
     <figcaption>Figure 1: Basic definition of a filament</figcaption>
   </figure>
-  <figure style="text-align: center; width: 48%; margin: 0;">
-    <img src="assets/css/sanitycheck.png" alt="Persistence Diagram" style="width: 100%;">
-    <figcaption>Figure 2: Differences in networks based on persistence thresholds</figcaption>
-  </figure>
 </div>
+
 
 - Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
 
