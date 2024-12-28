@@ -61,14 +61,13 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
   </figure>
 </div>
 
-
+<img src="assets/css/sanitycheck.png" alt="Elbow Method Graph" style="width:50%; float:left; margin:0 15px 15px 0;">
 - Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
 
-<img src="assets/css/sanitycheck.png" alt="Elbow Method Graph" style="width:50%; display:block; margin:auto;">
 
 ## Results
 
-<img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width:40%; float:left; margin:0 15px 15px 0;">
+<img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width:50%; float:left; margin:0 15px 15px 0;">
 
 The study revealed several important trends in the evolution of cosmic filaments. As the Universe transitioned from a neutral to an ionized state, the density distribution of the filamentary network changed significantly. Higher-density filaments became more prevalent over time, reflecting the effects of gravitational collapse and radiative feedback from ionizing sources. By contrast, lower-density regions of the network diminished, likely due to the combined effects of radiation pressure and the hierarchical growth of structure.
 
