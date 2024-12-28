@@ -1,7 +1,7 @@
 /* Apply Roboto font globally */
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 0;               /* Remove default browser margins */
+  margin: 2cm;               /* Remove default browser margins */
   padding: 2cm;            /* Add 2cm gap on all sides */
   line-height: 1.6;        /* Maintain good readability */
   background-color: #fafafa; /* Light background for a softer feel */
