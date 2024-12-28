@@ -31,7 +31,7 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
   <figure style="margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="assets/css/before.png" 
          alt="Basic definition of a filament"
-         style="height: 300px; /* Fixed height */
+         style="height: 500px; /* Fixed height */
                 width: auto; /* Maintain aspect ratio */
                 display: block;">
     <figcaption>Figure 1: Before reionization</figcaption>
@@ -40,7 +40,7 @@ The Cosmic Dawn III simulation serves as the foundation of this study, offering 
   <figure style="margin: 0; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="assets/css/after.png" 
          alt="Differences in networks based on persistence thresholds"
-         style="height: 300px; /* Same fixed height as the first image */
+         style="height: 500px; /* Same fixed height as the first image */
                 width: auto; /* Maintain aspect ratio */
                 display: block;">
     <figcaption>Figure 2: After reionization</figcaption>
