@@ -49,9 +49,7 @@ The scope of this study includes a sub-region of the CoDaIII simulation box, cho
 </div>
 
 <!-- Text that appears before the floated images -->
-<p>
 The Cosmic Dawn III simulation captures the complex interplay between ionizing radiation and the matter in the IGM, making it an ideal tool for exploring how cosmic filaments respond to reionization. With a resolution sufficient to resolve individual filamentary structures, CoDaIII employs the RAMSES-CUDATON code to couple radiation transport, hydrodynamics, and dark matter dynamics. This allows the simulation to account for the escape of ionizing radiation from thousands of galaxies and the subsequent impact on their surrounding environments.
-</p>
 
   
 - The first step in the analysis involved extracting the filamentary network 
