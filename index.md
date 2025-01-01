@@ -56,8 +56,7 @@ The scope of this study includes a sub-region (spanning roughly 3 comoving Mpc a
 
 
 <!-- Text that appears before the floated images -->
-The Cosmic Dawn III simulation captures the complex interplay between ionizing radiation and the matter in the IGM, making it an ideal tool for exploring how cosmic filaments respond to reionization. With a resolution sufficient to resolve individual filamentary structures, CoDaIII employs the RAMSES-CUDATON code to couple radiation transport, hydrodynamics, and dark matter dynamics. This allows the simulation to account for the escape of ionizing radiation from thousands of galaxies and the subsequent impact on their surrounding environments.
-
+With a resolution sufficient to resolve individual filamentary structures, CoDaIII employs the RAMSES-CUDATON code to couple radiation transport, hydrodynamics, and dark matter dynamics. This allows the simulation to account for the escape of ionizing radiation from thousands of galaxies and the subsequent impact on their surrounding environments.
   
 - The first step in the analysis involved extracting the filamentary network 
 using <a href="https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview">DisPerSE</a> 
@@ -69,6 +68,8 @@ persistence threshold across all analyzed redshifts, my study ensured
 consistency in identifying filaments while enabling comparisons of their 
 properties over time.
 
+- An important step in this project was the categorisation of filaments based on their baryonic density. The entire network is composed of various prportions of low and high density regions. Lower density sections of the network cannot be expected to display the same changes as the higher density counterparts as time progesses through reionization. Hence, the networks in all of the four redshifts were segregated into five density bins, the ranges of which were selected taking into account the overall density distribution of the complete IGM, and density thresholds for star formation and galaxy formation.
+
 <!-- <div style="display: flex; justify-content: center;">
   <figure style="text-align: center; width: 48%; margin: 0;">
     <img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="width: 100%;">
@@ -79,7 +80,7 @@ properties over time.
 
 <img src="assets/css/Cartoon2.png" alt="Elbow Method Graph" style="display: block; margin: auto; width: 30%;">
 
-- Once the filaments were identified, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. The analysis was further refined by categorizing filament segments based on their local density, allowing for a more nuanced understanding of how filaments with different physical properties evolve through the EoR.
+- Once the filaments were identified and well categorised, their spatial and thermodynamic properties were analyzed using radial profiling techniques. This involved characterizing the regions around each filament for parameters such as baryonic density, dark matter density, temperature, neutral fraction, and metallicity. Figure 3 shows the median radial profiles for the different asociated properties of the filaments in the four redshifts, showcasing how these profiles evolve with time. The darker profiles represent the denser filament parts, while the fainter profiles represent the rarer parts.
 
 
 ## Results
@@ -98,9 +99,14 @@ properties over time.
 
 The study revealed several important trends in the evolution of cosmic filaments. As the Universe transitioned from a neutral to an ionized state, the density distribution of the filamentary network changed significantly. Higher-density filaments became more prevalent over time, reflecting the effects of gravitational collapse and radiative feedback from ionizing sources. By contrast, lower-density regions of the network diminished, likely due to the combined effects of radiation pressure and the hierarchical growth of structure.
 
-Temperature profiles showed a clear increase as a function of decreasing redshift, highlighting the progressive heating of the IGM by ionizing sources. High-density filaments developed distinct thermal envelopes, with peak temperatures observed at increasing distances from their central axes over time. Interestingly, while lower-density filaments also experienced heating, they lacked the pronounced temperature peaks seen in their higher-density counterparts.
+The most important results have been shown in Figure 3. Temperature profiles showed a clear increase as a function of decreasing redshift, highlighting the progressive heating of the IGM by ionizing sources. High-density filaments developed distinct thermal envelopes, with peak temperatures observed at increasing distances from their central axes over time. Interestingly, while lower-density filaments also experienced heating, they lacked the pronounced temperature peaks seen in their higher-density counterparts.
 
-The analysis of neutral fraction profiles revealed a shift in the ionization pattern as reionization progressed. At early redshifts, dense regions of the filamentary network were the first to become ionized, driven by their proximity to radiation sources. By later stages of the EoR, the ionization process transitioned to an outside-in pattern, with less dense regions becoming the most ionized. 
+The analysis of neutral fraction profiles revealed a shift in the ionization pattern as reionization progressed. At early redshifts, dense regions of the filamentary network were the first to become ionized, driven by their proximity to radiation sources. By later stages of the EoR, the ionization process transitioned to an outside-in pattern, with less dense regions becoming the most ionized. What it means is that at redshift 9, the denser regions being nautrally closer to the ionizing sources receive the effect of the ionizing bubbles first, but as time progresses, the expanding bubbles reach the emptier regions of the IGM, which are less shielded from the background radiation, and ionise them even more than the denser regions. # Evolution of the IGM Neutral Fraction During Reionization. By **z=7**, the intergalactic medium (IGM) reaches a nearly uniformly ionized state, with ionizing photons forming a pervasive background. At this stage, gas density becomes the dominant factor influencing the neutral fraction:
+
+$x_\mathrm{HI} \propto \frac{\rho_\mathrm{gas}}{\rho_\mathrm{radiation}}$
+
+This results in an **outside-in reionization pattern**, where lower-density regions—less shielded and more exposed—are the most ionized. This reverses the earlier trend, making the least dense areas the least neutral. The decline in neutrality continues consistently through **z=5**. A persistent observation across **z=9**, **z=7**, and **z=5** is that **filament spines remain more neutral** than their surroundings, irrespective of density.
+
 
 Metallicity profiles provided additional insights into the effects of stellar feedback on the filamentary network. Only the highest-density filaments exhibited significant levels of metallicity, reflecting their connection to regions of active star formation. The presence of metals in these regions likely contributed to the observed temperature peaks, although the exact role of supernova feedback remains uncertain.
 
