@@ -8,7 +8,7 @@ _This description of the thesis is supposed to summarise the entire work, as a m
   <a href="https://raw.githubusercontent.com/vishrut-b/Master-Thesis/a7d12ceeb8a42381ac24f85dfb9be15beaa04d8b/Bezbarua_MSc.pdf" target="_blank">
     here
   </a>.
-- Programming/libraries : Python (numpy, scipy, matplotlib, pandas, scikit_learn)
+- Programming/libraries : Python (numpy, scipy, matplotlib, pandas, scikit-learn)
 - Data source : [Cosmic Dawn III (CoDaIII)](https://coda-simulation.github.io/) simulation.
 - Additional tool : [DisPerSE](https://www2.iap.fr/users/sousbie/web/html/index3c4a.html?category/Overview)
 
@@ -18,7 +18,7 @@ _This description of the thesis is supposed to summarise the entire work, as a m
   <figcaption style="text-align: justify; font-size: 0.8em; font-style: italic; font-weight: 300; color: #666; margin: 10px 0 0 0;">Figure 1: A cartoon to illustrate an evolving filamentary network</figcaption>
 </figure>
 
-Cosmic filaments are fundamental components of the [large-scale structure](https://science.nasa.gov/universe/galaxies/large-scale-structures/) of the Universe, forming the network known as the [cosmic web](https://science.nasa.gov/resource/cosmic-web/). These elongated structures, which stretch over vast distances, play a pivotal role in shaping galaxy formation and evolution, as gas flows primarily through these filaments to feed galactic haloes and accelerate star formation within. A lot of their properties also remain opne to speculation, for example, why do they not collapse under their own gravity or fragment into smaller bits and pieces? 
+Cosmic filaments are fundamental components of the [large-scale structure](https://science.nasa.gov/universe/galaxies/large-scale-structures/) of the Universe, forming the network known as the [cosmic web](https://science.nasa.gov/resource/cosmic-web/). These elongated structures, which stretch over vast distances, play a pivotal role in shaping galaxy formation and evolution, as gas flows primarily through these filaments to feed galactic haloes and accelerate star formation within. A lot of their properties also remain open to speculation, for example, why do they not collapse under their own gravity or fragment into smaller bits and pieces? 
 
 This thesis therefore investigates the evolution of [cosmic filaments](https://en.wikipedia.org/wiki/Galaxy_filament) through the [Epoch of Reionization (EoR)](https://en.wikipedia.org/wiki/Reionization), a transformative period in the history of the Universe when the first stars and galaxies emerged, producing ionizing radiation that altered the state of the IGM from cold to hot and rom neutral to ionised. Using data from the [Cosmic Dawn III (CoDaIII)](https://coda-simulation.github.io/) simulation—a high-resolution, cosmological coupled radiation-hydrodynamics simulation—the study aims to understand how the inhomogeneous reionization process impacts the physical characteristics of cosmic filaments and haloes. By analyzing their evolution across multiple redshifts (z = 15, 9, 7, and 5), my thesis tries to address how their density, temperature, and ionization state evolve over time, and what these changes reveal about the dynamics of the cosmic web.
 
