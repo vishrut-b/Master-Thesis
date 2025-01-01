@@ -1,5 +1,5 @@
 # Relics of Reionization in Cosmic Dawn III: Physical Properties of the Remnants of Photo-Evaporated Filaments and Structures
-Master's thesis of Vishrut Bezbarua.
+Master's thesis of [Vishrut Bezbarua](https://vishrut-b.github.io).
 
 #### Supervisors : [Dr. Pierre Ocvirk](https://astro.unistra.fr/fr/recherche/pierre-ocvirk/) and [Dr. Katarina Kraljic](https://astro.unistra.fr/fr/recherche/katarina-kraljic/)
 
