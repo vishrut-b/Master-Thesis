@@ -116,3 +116,8 @@ This thesis underscores the importance of cosmic filaments as dynamic and evolvi
 4. [Cosmic Dawn II (CoDa II): a new radiation-hydrodynamics simulation of the self-consistent coupling of galaxy formation and reionization](https://academic.oup.com/mnras/article/496/4/4087/5836727)
 
 and many more. 
+---
+There are always things worthy of being added into this summary, and always better ways of condensing a complex situtation into a simple understandable sentence, which is why this webpage is always under constuction. If you have questions, please feel free to reach out.
+
+Tel : +33783235990
+Email : vishrutbezbarua@gmail.com
