@@ -1,4 +1,5 @@
 # Relics of Reionization in Cosmic Dawn III: Physical Properties of the Remnants of Photo-Evaporated Filaments and Structures
+#### Supervisors : [Dr. Pierre Ocvirk](https://astro.unistra.fr/fr/recherche/pierre-ocvirk/) and [Dr. Katarina Kraljic](https://astro.unistra.fr/fr/recherche/katarina-kraljic/)
 
 This description of the thesis is supposed to summarise the entire work, as a means to present it to potential collaborators.
 - The thesis report is available 
