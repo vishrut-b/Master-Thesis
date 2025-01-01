@@ -50,7 +50,7 @@ The scope of this study includes a sub-region (spanning roughly 3 comoving Mpc a
          style="height: 500px; width: auto; display: block;">
   </div>
   <figcaption style="text-align: justify; font-size: 1em; font-style: italic; font-weight: 300; color: #666; margin: 10px 0 0 0;">
-    Figure: Comparison of IGM before and after reionization along with the extracted filamentary structures (overplotted in black) extracted using DisPerSE.
+    Figure 2: Comparison of IGM before and after reionization along with the extracted filamentary structures (overplotted in black) extracted using DisPerSE.
   </figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ properties over time.
 <figure style="width: 50%; float: left; margin: 0 15px 10px 0;">
   <img src="assets/css/profiles.png" alt="Elbow Method Graph" style="width: 100%;">
   <figcaption style="text-align: justify; font-size: 0.8em; font-style: italic; font-weight: 300; color: #666; margin: 10px 0 0 0;">
-    Figure: Median radial profiles for Gas density (first row), Dark matter density (second row), neutral fraction (third row),
+    Figure 3: Median radial profiles for Gas density (first row), Dark matter density (second row), neutral fraction (third row),
     ionisation fraction (fourth row), temperature (fifth row), a magnified version of the same temperature profiles
     (sixth row), and metallicity of filaments in the simulations at redshifts 15, 9, 7 and 5. The radius represents the
     cylindrical radius, perpendicular to the filament in comoving kiloparsecs. The multiple lines in each panel represent profiles from filaments with
