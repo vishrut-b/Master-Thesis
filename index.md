@@ -22,7 +22,7 @@ This thesis therefore investigates the evolution of [cosmic filaments](https://e
 
 <!-- <img src="assets/css/Cartoon1.png" alt="Cartoon" style="width:50%; display:block; margin:auto;"> -->
 
-The scope of this study includes a sub-region (spanning roughly 3 comoving Mpc across each exis) of the CoDaIII simulation box, chosen to balance computational constraints with the need for detailed analysis. Through this focused investigation, the research contributes to a broader understanding of the role of cosmic filaments in the hierarchical assembly of matter in the Universe, particularly during a period characterized by rapid and spatially variable reionization.
+The scope of this study includes a sub-region (spanning roughly 3 comoving Mpc across each axis) of the CoDaIII simulation box, chosen to balance computational constraints with the need for detailed analysis. Through this focused investigation, the research contributes to a broader understanding of the role of cosmic filaments in the hierarchical assembly of matter in the Universe, particularly during a period characterized by rapid and spatially variable reionization.
 
 ## Methodology
 
