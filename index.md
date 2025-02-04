@@ -5,7 +5,7 @@ Master's thesis of [Vishrut Bezbarua](https://vishrut-b.github.io).
 
 _This description of the thesis is supposed to summarise the entire work, as a means to present it to potential collaborators._
 - The thesis report is available 
-  <a href="https://raw.githubusercontent.com/vishrut-b/Master-Thesis/a7d12ceeb8a42381ac24f85dfb9be15beaa04d8b/Master_s_Thesis___Relics_of_Reionisation_in_CoDa_III.pdf" target="_blank">
+  <a href="https://github.com/vishrut-b/Master-Thesis/raw/main/Master_s_Thesis___Relics_of_Reionisation_in_CoDa_III.pdf" download>
     here
   </a>.
 - Programming/libraries : Python (numpy, scipy, matplotlib, pandas, scikit-learn)
